@@ -17,7 +17,7 @@ class TAppBarTheme {
         fontSize: 18.0, fontWeight: FontWeight.w600, color: TColors.black),
   );
   static const darkAppBarTheme = AppBarTheme(
-    elevation: 0,
+    elevation: 1,
     centerTitle: false,
     scrolledUnderElevation: 0,
     backgroundColor: Colors.transparent,
@@ -28,3 +28,6 @@ class TAppBarTheme {
         fontSize: 18.0, fontWeight: FontWeight.w600, color: TColors.white),
   );
 }
+
+
+// adding new theme

@@ -32,25 +32,19 @@ class _HomeState extends State<Home> {
                 text: 'Your Mood', icon: Iconsax.search_favorite)),
         body: TabBarView(physics: const BouncingScrollPhysics(), children: [
           HomeView(),
-          Container(
-            child: Center(
-              child: Text('Search'),
-            ),
+          Center(
+            child: Text('Search'),
+          ),
+          Center(
+            child: Text('Equalizer'),
           ),
           Container(
             child: Center(
-              child: Text('Setting'),
+              child: Text('new'),
             ),
           ),
-          Container(
-            child: Center(
-              child: Text('Setting'),
-            ),
-          ),
-          Container(
-            child: Center(
-              child: Text('Setting'),
-            ),
+          Center(
+            child: Text('Setting'),
           ),
         ]),
         bottomNavigationBar: BottomNavigationBar(
